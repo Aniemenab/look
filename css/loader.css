@@ -129,40 +129,41 @@
    .loader-square:nth-of-type(0) {
     animation-delay: 0s;
    
-    background-color: #352222;
+    background-color: #e1d247;
    }
    
    .loader-square:nth-of-type(1) {
     animation-delay: -1.4285714286s;
-    background-color: #30281a;
+    background-color: #f9ae2c;
    }
    
    .loader-square:nth-of-type(2) {
     animation-delay: -2.8571428571s;
-    background-color: #313f18;
+    background-color: #b021cd;
    }
    
    .loader-square:nth-of-type(3) {
     animation-delay: -4.2857142857s;
-    background-color: #2b3a1b;
+    background-color: #a3ec54;
    }
    
    .loader-square:nth-of-type(4) {
     animation-delay: -5.7142857143s;
-    background-color: #0f2425;
+    background-color: #48e2eb;
    }
    
    .loader-square:nth-of-type(5) {
     animation-delay: -7.1428571429s;
-    background-color: #281e31;
+    background-color: #e549a9;
    }
    
    .loader-square:nth-of-type(6) {
     animation-delay: -8.5714285714s;
-    background-color: #381a1c;
+    background-color: #e34f59;
    }
    
    .loader-square:nth-of-type(7) {
     animation-delay: -10s;
-    background-color: #3f1a31;
+ 
+    background-color: #527aff;
    }

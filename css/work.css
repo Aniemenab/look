@@ -71,6 +71,7 @@
     height: auto;
     /* background-color: #480698; */
     padding: 1rem;
+    margin-left: 1.2rem;
 }
 
 .work_container {
@@ -150,6 +151,9 @@ figure.workcover h3,
 figure.workcover p {
     line-height: 1.5em;
 }
+figure.workcover h3 {
+  font-size: 1.6rem;
+}
 
 figure.workcover h3,
 h4 {
@@ -221,9 +225,20 @@ figure.workcover.hover figcaption {
     figure.workcover {
         margin: .6rem auto;
 
+
+    }
+  
+}
+@media screen and (max-width:400px) {
+   
+    .work {
+        width: 100%;
+        height: auto;
+        /* background-color: #480698; */
+        padding: 1rem;
+        margin-left: 0;
     }
 }
-
 figure.workcover2 {
     font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
@@ -533,6 +548,21 @@ figure.workcover2.hover figcaption {
         flex: 100%;
         max-width: 100%;
     }
+ 
+}
+@media screen and (max-width: 400px) {
+  
+    .graphics_body {
+        width: 100%;
+        height: auto;
+     margin-left: .7rem;
+        padding-bottom: 3rem;
+        /* background-color: RED; */
+        overflow-x: hidden;
+    }
 }
 
 /* ======================END OF WORKS=================== */
+figure.workcover p {
+    font-size: 15px;
+  }

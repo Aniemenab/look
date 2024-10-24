@@ -142,7 +142,7 @@ body {
 .t h1 p:nth-child(2) {
     width: 100%;
     margin-top: -19px;
-    background-color: #95BDFF;
+    /* background-color: #95BDFF; */
     width: auto;
     padding: 4px;
     border-radius: 10px;
@@ -455,7 +455,7 @@ body {
     .top-text{
         width: 100%;
         height: auto;
-        background-color: green;
+        /* background-color: green; */
     }
     .top-text h1 {
         font-size: 3.4rem;
