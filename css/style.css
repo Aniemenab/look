@@ -451,10 +451,16 @@ body {
     }
 }
 
-@media screen and (max-width:311px) {
+@media screen and (max-width:303px) {
+    .top-text{
+        width: 100%;
+        height: auto;
+        background-color: green;
+    }
     .top-text h1 {
-
-        /* margin-left: -7rem !important; */
+        font-size: 3.4rem;
+        font-family: 'Alegreya', serif;
+        font-weight: 600;
     }
 }
 
@@ -545,9 +551,9 @@ body {
 } */
 @media screen and (max-width:447px) {
     .img {
-        width: 80%;
+        width: 100%;
         /* margin-left: 1rem; */
-        /* background-color: green; */
+        
 
 
     }
@@ -566,12 +572,12 @@ body {
 
     .sco-icon {
         width: auto;
-        margin-left: -1rem;
+        /* margin-left: -1rem; */
 
     }
 
     .sco-icon i {
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
 
 }
@@ -693,7 +699,8 @@ body {
     }
 
     .about-text {
-        margin-top: 0rem;
+        margin: auto;
+        /* background-color: green; */
     }
 
 
@@ -702,7 +709,7 @@ body {
 
 @media screen and (max-width:400px) {
     .about-text2 p {
-        font-size: 15px;
+        font-size: 21px;
 
     }
 
@@ -715,20 +722,44 @@ body {
     } */
 
     .about-text {
-
+    
         margin-top: 1rem;
+        /* background-color: green; */
+    }
+    
+    .img{
+      width: 100% !important;
+        /* background-color: purple; */
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .img img{
 
     }
+    .sco-icon{
+        /* background-color: orange; */
+    /* margin-left: -30px !important; */
+    }
+    /* .img, .sco-icon{
+
+        margin-left: 2rem !important;
+    }
+   .sco-icon{
+
+        margin-left: 10rem !important;
+    } */
 }
 
 @media screen and (max-width:385px) {
     .about-text2 p {
-        font-size: 13px;
+        font-size: 18px;
     }
 
-    .about-text2 h1 {
-        font-size: 22px;
+    .about-text2 h1{
+        font-size: 20px;
     }
+    
+    
 }
 
 @media screen and (max-width:375px) {
@@ -752,7 +783,7 @@ body {
 @media screen and (max-width:349px) {
 
     .about-text2 p {
-        font-size: 12px;
+        font-size: 17px;
 
 
     }
@@ -772,14 +803,14 @@ body {
 
 @media screen and (max-width:320px) {
 
-    .about-text,
+    /* .about-text,
     .img-cover {
         margin-left: 1rem;
     }
 
     .about-text {
         margin-left: 20%;
-    }
+    } */
 }
 
 
@@ -1003,7 +1034,7 @@ body {
     }
 
     .skill_img img {
-        width: 40%;
+        width: 18px;
     }
 
     .skill_text p {
@@ -1028,6 +1059,17 @@ body {
 
     .skill_text p {
         font-size: 19px;
+        /* 36.641px */
+    }
+}
+
+@media screen and (max-width:400px) {
+  
+.skill_img img{
+  
+}
+    .skill_text p {
+        font-size: 17px;
         /* 36.641px */
     }
 }
@@ -1349,7 +1391,7 @@ input[placeholder] {
 @media screen and (max-width:400px) {
 
     .img {
-        margin: -1rem;
+       margin-left: 0;
     }
 
 }
@@ -1375,7 +1417,7 @@ input[placeholder] {
 
 
     .sco-icon {
-        margin-left: -1rem !important;
+        /* margin-left: -1rem !important; */
         margin-top: 25px;
     }
 }
@@ -1415,7 +1457,7 @@ input[placeholder] {
 
 
     .sco-icon {
-        margin-left: -1.5rem !important;
+        /* margin-left: -1.5rem !important; */
 
     }
 }
@@ -1424,7 +1466,7 @@ input[placeholder] {
 
 
     .sco-icon {
-        margin-left: -1.8rem !important;
+        /* margin-left: -1.8rem !important; */
 
     }
 }

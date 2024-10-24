@@ -69,8 +69,8 @@
 .work {
     width: 100%;
     height: auto;
-    background-color: #05010a;
-    padding-top: 1rem;
+    /* background-color: #480698; */
+    padding: 1rem;
 }
 
 .work_container {
