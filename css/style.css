@@ -4,7 +4,14 @@ body {
     overflow-x: hidden !important;
 
 }
-
+#one{
+    overflow-y:hidden;
+}
+@media screen and (max-width:351px) {
+    #one{
+        overflow-y:scroll;
+    }
+}
 .nt {
     margin-top: 3rem;
 }
@@ -451,19 +458,25 @@ body {
     }
 }
 
-@media screen and (max-width:303px) {
+@media screen and (max-width:317px) {
     .top-text{
         width: 100%;
         height: auto;
         /* background-color: green; */
     }
     .top-text h1 {
-        font-size: 3.4rem;
-        font-family: 'Alegreya', serif;
-        font-weight: 600;
+        font-size: 3.3rem;
+      
     }
 }
 
+@media screen and (max-width:306px) {
+   
+    .top-text h1 {
+        font-size: 3.1rem;
+       
+    }
+}
 @media screen and (max-width:290px) {
     .top-text h1 {
 
